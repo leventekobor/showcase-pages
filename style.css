@@ -1,0 +1,123 @@
+html, body, section {
+    height: 100%;
+    font-family: Roboto;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+  
+.container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.container {
+    display: flex;
+}
+
+.left-half {
+    height: 100%;
+    background-color: #E5E5E5;;
+    flex: 1 1 640px;
+    justify-content: flex-start;
+}
+  
+.right-half {
+    height: 100%;
+    background: url(img/landscape.png);
+    background-repeat: no-repeat;
+    flex: 1 1 800px;
+    background-size: cover;
+}
+
+.form-container {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 16px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    height: 48px;
+    margin-top: 22px;
+    margin-bottom: 28px;
+    text-indent: 17px;
+    box-sizing: border-box;
+    font-size:16px;
+}
+
+input:focus {
+    background: #FFFFFF;
+    border: 1px solid rgba(56, 158, 13, 0.9);
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+::-moz-placeholder {
+    opacity: 1;
+}
+
+button {
+    margin-top: 64px; 
+    height: 48px;
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.line {
+    width: 360px;
+    height: 0;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    margin: 3px;
+    margin-bottom: 50px;
+    display:inline-block;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 36px;
+}
+
+.input-wrapper {
+    display:inline-block;
+    position: relative
+}
+
+.password-icon {
+    position: absolute;
+    right: 15px;
+    top: 37px;
+}
+
+.password-icon:hover {
+    cursor: pointer;
+}
+
+.password-input {
+    width: 360px;
+}
