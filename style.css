@@ -20,7 +20,7 @@ html, body, section {
 
 .left-half {
     height: 100%;
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
     flex: 1 1 640px;
     justify-content: flex-start;
 }
@@ -124,4 +124,20 @@ input:focus {
 
 .password-input {
     width: 360px;
+}
+
+@media only screen   
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px) {
+    .right-half {
+        background: #E5E5E5;
+    }
+
+    .form-container {
+        max-width: 280px;
+    }
+
+    .password-input {
+        width: 280px;
+    }
 }
