@@ -80,7 +80,7 @@ input {
 
 .input-wrapper {
     display:inline-block;
-    position: relative
+    position: relative;
     flex: 1 1 auto;
 }
 
@@ -112,12 +112,10 @@ input:focus {
     opacity: 1;
 }
 
-
-
 .password-icon {
     position: absolute;
-    right: 15px;
-    top: 28px;
+    right: 10px;
+    top: 26px;
 }
 
 .password-icon:hover {
