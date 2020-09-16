@@ -66,7 +66,7 @@ p {
     margin-bottom: 36px;
 }
 
-input {
+.input-control {
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 6px;
     height: 48px;
@@ -76,6 +76,7 @@ input {
     box-sizing: border-box;
     font-size:16px;
     flex: 1 1 auto;
+    width: 360px;
 }
 
 .input-wrapper {
