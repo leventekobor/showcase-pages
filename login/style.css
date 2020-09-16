@@ -138,6 +138,10 @@ input:focus {
         max-width: 280px;
     }
 
+    .input-control {
+        width: 280px;
+    }
+
     .password-input {
         width: 280px;
     }
