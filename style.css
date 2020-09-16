@@ -20,7 +20,7 @@ html, body, section {
 
 .left-half {
     height: 100%;
-    background-color: #E5E5E5;
+    background-color: white;
     flex: 1 1 640px;
     justify-content: flex-start;
 }
@@ -69,9 +69,9 @@ p {
 input {
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 6px;
-    height: 38px;
-    margin-top: 16px;
-    margin-bottom: 12px;
+    height: 48px;
+    margin-top: 5px;
+    margin-bottom: 32px;
     text-indent: 17px;
     box-sizing: border-box;
     font-size:16px;
@@ -115,7 +115,7 @@ input:focus {
 .password-icon {
     position: absolute;
     right: 10px;
-    top: 26px;
+    top: 21px;
 }
 
 .password-icon:hover {
@@ -130,7 +130,7 @@ input:focus {
     and (min-device-width: 320px) 
     and (max-device-width: 480px) {
     .right-half {
-        background: #E5E5E5;
+        background: white;
     }
 
     .form-container {
